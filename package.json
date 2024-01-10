@@ -1,0 +1,18 @@
+{
+  "name": "assignment-1",
+  "version": "1.0.0",
+  "description": "Assignment 1",
+  "main": "serverCheck.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "demo": "node demo.js"
+  },
+  "author": "Zachary Fisher",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "chai": "^4.1.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^10.2.0"
+  }
+}
